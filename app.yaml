@@ -1,0 +1,4 @@
+runtime: python38  # Use the appropriate runtime for your application
+entrypoint: gunicorn -b :$PORT main:app
+
+# Add any additional App Engine configuration here
